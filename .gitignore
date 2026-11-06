@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+
+# Environnement (contient les secrets)
+.env
+
+# Données téléchargées (trop volumineuses pour Git)
+data/raw/
+data/processed/
+data/index/
+
+# Éditeurs / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
