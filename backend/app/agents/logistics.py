@@ -10,7 +10,7 @@ from app.rag.place_graph import PlaceGraph, group_by_proximity
 from app.rag.text import normalize
 from app.rag.wikitext import Place
 
-MAX_NEARBY = 4
+MAX_NEARBY = 2
 
 
 def run_logistics(index: HybridIndex, place_graph: PlaceGraph, state: TripState) -> TripState:

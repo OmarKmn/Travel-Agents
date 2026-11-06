@@ -11,8 +11,8 @@ Réponds UNIQUEMENT avec un tableau JSON de chaînes, par exemple :
 ["musées d'art", "restaurants de poisson", "quartiers historiques"]"""
 
 MAX_QUERIES = 4
-PASSAGES_PER_QUERY = 3
-MAX_PASSAGES = 12
+PASSAGES_PER_QUERY = 2
+MAX_PASSAGES = 8
 # Toujours chercher les classiques, même si le voyageur n'a rien précisé
 DEFAULT_QUERY = "incontournables à voir"
 

@@ -20,7 +20,7 @@ from app.config import RAW_DIR
 API_URL = "https://fr.wikivoyage.org/w/api.php"
 
 # La politique de Wikimedia demande un User-Agent identifiant le projet.
-USER_AGENT = "travel-agents/0.1 (projet open source d'apprentissage)"
+USER_AGENT = "travel-agents/0.1 (https://github.com/OmarKmn/travel-agents) httpx/0.28"
 
 DEFAULT_CITIES = [
     "Paris", "Lisbonne", "Barcelone", "Rome", "Amsterdam",
